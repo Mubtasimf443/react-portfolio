@@ -41,15 +41,6 @@ export const skillsData: SkillCategory[] = [
                 name: "Python",
                 icon: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
                 alt: "Python"
-            },
-            {
-                name: "Golang",
-                icon: "https://img.icons8.com/?size=48&id=44442&format=png&color=000000",
-                alt: "Golang"
-            },
-            {
-                name: "SQL",
-                LucideIcon: Database
             }
         ]
     },
@@ -70,11 +61,6 @@ export const skillsData: SkillCategory[] = [
                 name: "Tailwind CSS",
                 icon: "/static/icon/tailwind.svg",
                 alt: "Tailwind CSS"
-            },
-            {
-                name: "Bootstrap",
-                icon: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg",
-                alt: "Bootstrap"
             }
         ]
     },
@@ -82,23 +68,14 @@ export const skillsData: SkillCategory[] = [
         title: "Backend Development",
         skills: [
             {
-                name: "Node.js",
-                icon: "/static/icon/nodejs.png",
-                alt: "Node.js"
+                name: 'Express',
+                alt: 'express.js icon',
+                icon: '/static/icon/nodejs.png'
             },
             {
-                name: "FastAPI",
-                LucideIcon: Server
-            },
-            {
-                name: "Flask",
-                icon: "/static/icon/flask.svg",
-                alt: "Flask"
-            },
-            {
-                name: "Gin Gonic",
-                icon: "/static/icon/gin-gonic.svg",
-                alt: "Gin Gonic"
+                name : 'NestJs',
+                alt : 'nest.js',
+                icon : '/static/icon/nestjs.png'
             }
         ]
     },
@@ -130,21 +107,8 @@ export const skillsData: SkillCategory[] = [
     {
         title: "DevOps & Cloud",
         skills: [
-            {
-                name: "AWS EC2",
-                icon: "/static/icon/ec2.png",
-                alt: "AWS EC2"
-            },
-            {
-                name: "Ubuntu",
-                icon: "https://img.icons8.com/?size=100&id=zrNxSf4ltkGV&format=png&color=149BDB",
-                alt: "Ubuntu"
-            },
-            {
-                name: "Docker",
-                icon: "/static/icon/docker.svg",
-                alt: "Docker"
-            },
+           
+           
             {
                 name: "Git",
                 icon: "https://img.icons8.com/?size=48&id=20906&format=png&color=000000",
@@ -177,28 +141,5 @@ export const skillsData: SkillCategory[] = [
             }
         ]
     },
-    {
-        title: "Web Analytics & Tools",
-        skills: [
-            {
-                name: "Google Analytics 4",
-                icon: "/static/icon/google-analytics.png",
-                alt: "Google Analytics 4"
-            },
-            {
-                name: "Google Tag Manager",
-                icon: "/static/icon/google-tag-manager.png",
-                alt: "Google Tag Manager"
-            },
-            {
-                name: "Google Search Console",
-                icon: "/static/icon/google-web-search.png",
-                alt: "Google Search Console"
-            },
-            {
-                name: "SEO Optimization",
-                LucideIcon: Globe
-            }
-        ]
-    }
+   
 ];

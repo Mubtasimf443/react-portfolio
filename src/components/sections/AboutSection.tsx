@@ -40,10 +40,10 @@ const AboutSection = () => {
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold text-primary-500">Technical Expertise</h3>
                 <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Frontend: React, Redux, Next.js, TypeScript</li>
-                  <li>Backend: Node.js, Python (FastAPI, Flask)</li>
+                  <li>Frontend: React, Next.js, TypeScript</li>
+                  <li>Backend: ExpressJs, NestJs</li>
                   <li>Databases: PostgreSQL, MySQL, MongoDB, Redis</li>
-                  <li>DevOps: AWS, Ubuntu, Nginx, Linux</li>
+                 
                 </ul>
               </div>
 
