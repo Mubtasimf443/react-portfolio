@@ -1,13 +1,6 @@
 /*
 بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ ﷺ InshaAllah
 */
-import { 
-  Database, 
-  Server, 
- 
-  Globe, 
-  
-} from 'lucide-react';
 
 // Define the skills data structure
 interface Skill {
